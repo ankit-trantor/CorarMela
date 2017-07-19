@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Corar Mela</string>
+    <string name="rationale_external_storage">This app needs access to write your External Storage</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="player_error">player Error</string>
+</resources>

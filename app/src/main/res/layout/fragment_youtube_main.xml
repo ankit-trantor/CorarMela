@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dim_four"
+    tools:context="com.cpsdbd.corarmela.Fragments.YoutubeMainFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        style="@style/MyFont.Big.Bold.Dark"
+        android:textSize="28dp"
+        android:id="@+id/title"
+        android:textColor="#954654"
+        android:text="ছড়ার মেলা"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:id="@+id/rv_playlist">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

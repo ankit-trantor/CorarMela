@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="@dimen/dim_ten"
+    android:layout_height="100dp"
+    android:layout_marginBottom="2dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="Sohel Ahmed"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:id="@+id/profile_image"
+        android:layout_marginBottom="4dp"
+        android:layout_below="@+id/name"/>
+
+    <TextView
+        android:layout_marginLeft="@dimen/dim_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:id="@+id/comment"
+        android:layout_toRightOf="@+id/profile_image"/>
+
+    <TextView
+        android:layout_marginRight="@dimen/dim_sixteen"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/date"
+        android:textSize="10sp"
+        android:textColor="@color/my_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/divider"/>
+
+</RelativeLayout>
